@@ -120,8 +120,8 @@ const Footer = () => {
            </Center>
            <Right>
                <Title>Contact</Title>
-               <ContactItem><Room style={{marginRight:"10px"}}/>2/52, Shanti Path, C-Zone, Durgapur, Burdwan, PIN : 713205</ContactItem>
-               <ContactItem><Phone style={{marginRight:"10px"}}/>+91 9474111878</ContactItem>
+               <ContactItem><Room style={{marginRight:"10px"}}/>2/52, Shanti Path, C-Zone, Durgapur, West Bengal, Burdwan, PIN : 713205</ContactItem>
+               <ContactItem><Phone style={{marginRight:"10px"}}/>+91 9474111878, +91 7602588518</ContactItem>
                <ContactItem><MailOutline style={{marginRight:"10px"}}/>support@pvm.com</ContactItem>
                
            </Right>

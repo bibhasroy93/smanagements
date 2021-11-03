@@ -47,6 +47,23 @@ const MenuItem = styled.div`
     opacity: 0.5;
   }
 `;
+
+const Button=styled.button`
+width: 100px;
+padding: 8px;
+border-radius: 4px;
+outline: none;
+cursor: pointer;
+border: 1px solid #ffffff;
+background: white;
+color: black;
+font-size: 14px;
+transform: scale(1);
+transition: all 0.2s ease;
+:hover{
+  transform: scale(1.05);
+}
+`;
 const Navbar = () => {
   return (
     <Container>
@@ -64,7 +81,7 @@ const Navbar = () => {
           
         </Center>
         <Right>
-          <MenuItem>ADMIN</MenuItem>
+          <Button>ADMIN</Button>
         </Right>
       </Wrapper>
     </Container>
