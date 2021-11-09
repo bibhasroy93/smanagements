@@ -107,4 +107,24 @@ export const classDetails=[
         name:"Shiv Shankar Mondal",
         roll:"06",
     },
+    {
+        id:7,
+        name:"Rahul Kumar Chakroborty",
+        roll:"07",
+    },
+    {
+        id:8,
+        name:"Ram Prasad Dutta",
+        roll:"08",
+    },
+    {
+        id:9,
+        name:"Sampa Das",
+        roll:"09",
+    },
+    {
+        id:10,
+        name:"Shilpi Dey",
+        roll:"10",
+    },
 ];

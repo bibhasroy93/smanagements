@@ -5,9 +5,7 @@ import ClassTable from "./ClassTable";
 
 const Container=styled.div`
 padding:20px;
-display:flex;
-flex-wrap:wrap;
-justify-content:space-between;
+
 `;
 
 
@@ -17,6 +15,7 @@ const ClassesTable = () => {
         <Container>
           {classDetails.map((item)=>(
               <ClassTable item={item} key={item.id} />
+              
           ))}  
         </Container>
     )

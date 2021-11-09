@@ -10,7 +10,7 @@ const Container = styled.div`
   align-items: center;
   justify-content: center;
   border-radius: 4px;
-  background-color: #2479da;
+  background-color: #7324da;
   position: relative;
 `;
 
@@ -26,12 +26,12 @@ const Info = styled.div`
   justify-content: center;
 `;
 const Title = styled.h1`
-  color: black;
+  color: white;
   margin-bottom: 20px;
 `;
-const SubTitle=styled.h2`
-color:white;
-margin-bottom:20px;
+const SubTitle = styled.h2`
+  color: white;
+  margin-bottom: 20px;
 `;
 const Button = styled.button`
   border: 1px;
@@ -53,9 +53,9 @@ const ClassTable = ({ item }) => {
   return (
     <Container>
       <Info>
-        <Title>{item.name}</Title>
-        <SubTitle>{item.roll}</SubTitle>
-        <Button>View Details</Button>
+      <Title>{item.name}</Title>
+      <SubTitle>{item.roll}</SubTitle>
+      <Button>View Details</Button>
       </Info>
     </Container>
   );

@@ -5,10 +5,11 @@ import Home from './pages/Home'
 import Classes from './components/Classes'
 import ClassPage from './pages/ClassPage'
 import ClassesTable from './components/ClassesTable'
+import ClassWiseStudentPage from './pages/ClassWiseStudentPage'
 const App = () => {
     return (
         <div>
-           <ClassesTable/>
+           <ClassWiseStudentPage/>
         </div>
     )
 }
