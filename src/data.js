@@ -128,3 +128,35 @@ export const classDetails=[
         roll:"10",
     },
 ];
+
+export const faculty=[
+    {
+        id:1,
+        name:"BIBHAS ROY",
+        dept:"Computer",
+        contact:"+91-9474111878",
+        qual:"MCA",
+    },
+    {
+        id:2,
+        name:"RAJESH BURNWAL",
+        dept:"Hindi",
+        contact:"+91-8945761234",
+        qual:"MA",
+    },
+    {
+        id:3,
+        name:"NABA KUMAR PAL",
+        dept:"Accounts",
+        contact:"+91-7601548745",
+        qual:"B.SC",
+    },
+    {
+        id:4,
+        name:"BUDDHADEB KARMAKAR",
+        dept:"Bengali",
+        contact:"+91-9434154799",
+        qual:"MA",
+    },
+    
+];
