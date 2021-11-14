@@ -1,4 +1,5 @@
 import React from "react";
+import { useHistory } from "react-router-dom";
 import styled from "styled-components";
 
 const Container = styled.div``;
@@ -66,13 +67,23 @@ const Button = styled.button`
   }
 `;
 const Navbar = () => {
+
+  const history = useHistory();
+  
+  const handleAdminRoute = () =>{ 
+    history.push("/admin");
+  }
+  const handleFacultyRoute = () =>{ 
+    history.push("/faculty");
+  }
+
   return (
     <Container>
       <Wrapper>
         <Left>
           <MenuItem>Home</MenuItem>
           <MenuItem>Academic</MenuItem>
-          <MenuItem>Faculty</MenuItem>
+          <MenuItem onClick={handleFacultyRoute}>Faculty</MenuItem>
           <MenuItem>Admission</MenuItem>
           <MenuItem>Notice</MenuItem>
           <MenuItem>Result</MenuItem>
@@ -80,7 +91,8 @@ const Navbar = () => {
         </Left>
         <Center></Center>
         <Right>
-          <Button>ADMIN</Button>
+          <Button onClick={handleAdminRoute}>ADMIN</Button>
+        
         </Right>
       </Wrapper>
     </Container>

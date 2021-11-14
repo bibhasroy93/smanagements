@@ -4,14 +4,14 @@ import styled from "styled-components";
 const Container = styled.div``;
 
 const Wrapper=styled.div`
-margin-top: 10px;
-height:40px;
+margin-top: 8px;
+height:50px;
 background-color:black;
 `;
 
 const InfoText=styled.h1`
 color:white;
-padding-left: 10px;
+padding-left: 8px;
 text-align: center;
 `;
 

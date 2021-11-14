@@ -1,4 +1,5 @@
 import React from "react";
+import {useHistory} from 'react-router-dom'
 import styled from "styled-components";
 
 const Container = styled.div`
@@ -46,11 +47,19 @@ const Button = styled.button`
 `;
 
 const ClassList = ({ item }) => {
+  const history = useHistory();
+  
+  const handleStudentRoute = () =>{ 
+    history.push({
+      pathname: '/classWiseStudent',
+      state:item.title, 
+    });
+  };
   return (
     <Container>
       <Info>
         <Title>{item.title}</Title>
-        <Button>View Details</Button>
+        <Button onClick={handleStudentRoute}>View Details</Button>
       </Info>
     </Container>
   );

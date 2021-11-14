@@ -9,6 +9,7 @@ const Heading=styled.h1`
 text-align:center;
 margin-top:20px;
 word-spacing: 3px;
+font-weight: bold;
 `;
 
 const ClassPage = () => {
