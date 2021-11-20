@@ -160,3 +160,23 @@ export const faculty=[
     },
     
 ];
+
+export const academicDetails=[
+    {
+        id:1,
+        name:"SUBJECTS",
+    },
+    {
+        id:2,
+        name:"COURSES",
+    },
+    {
+        id:3,
+        name:"SYLLABUS",
+    },
+    {
+        id:4,
+        name:"ROUTINE",
+    },
+    
+];

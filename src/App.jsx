@@ -9,6 +9,7 @@ import ClassesTable from "./components/ClassesTable";
 import ClassWiseStudentPage from "./pages/ClassWiseStudentPage";
 import FacultyPage from "./pages/FacultyPage";
 import ClassList from "./components/ClassList";
+import Academic from "./pages/Academic";
 const App = () => {
   return (
     <Router>
@@ -16,6 +17,7 @@ const App = () => {
       <Switch>
           <Route exact path="/" component={Home}></Route>
           <Route exact path="/admin" component={Admin}></Route>
+          <Route exact path="/academic" component={Academic}></Route>
           <Route exact path="/faculty" component={FacultyPage}></Route>
           <Route exact path="/class" component={ClassPage}></Route>
           <Route exact path="/classWiseStudent" component={ClassWiseStudentPage}></Route>

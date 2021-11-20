@@ -73,6 +73,9 @@ const Navbar = () => {
   const handleAdminRoute = () =>{ 
     history.push("/admin");
   }
+    const handleAcademicRoute = () =>{ 
+        history.push("/academic");
+      }
   const handleFacultyRoute = () =>{ 
     history.push("/faculty");
   }
@@ -82,7 +85,7 @@ const Navbar = () => {
       <Wrapper>
         <Left>
           <MenuItem>Home</MenuItem>
-          <MenuItem>Academic</MenuItem>
+          <MenuItem onClick={handleAcademicRoute}>Academic</MenuItem>
           <MenuItem onClick={handleFacultyRoute}>Faculty</MenuItem>
           <MenuItem>Admission</MenuItem>
           <MenuItem>Notice</MenuItem>
